@@ -1,0 +1,51 @@
+
+Relationship in OOPs JAVA:
+    How multiple classes depends on/interact with each other.
+
+Advantages:
+    Code Reusability
+    Cost Cutting
+    Reduce Code Redundancy
+
+
+Types of relationships:
+    1.HAS-A-relationship (Association)
+    2.IS-A-relationship (Inheritance)
+    3.USES-A-relationship (Dependency)
+
+HAS-A-relationship:
+    1.Aggregation:
+        is a weak HAS-A relationship where the child obj is created outside parent class and can exist independently.
+    2.Composition:
+        is a strong HAS-A relationship where the child object is created inside the parent class and cannot exist independently. If the parent object is destroyed, the child object is also destroyed.
+
+
+Super : Super calling statement is a constructor calling statement
+It is used to call constructor within super class
+
+if programmer has not returned this calling statement then by default compiler will add no argument super calling statement.
+
+We cannot use this and super calling stattment in same cinstructor
+
+We can use only one super calling statement in one constructor
+
+write a defference between super and this calling statement??
+
+
+Single Level Inheritance:
+    One subclass is having only one superclass
+
+Multi Level Inheritance:
+    One subclass is having more than one super class at different level
+
+Hirarchical Inheritance:
+    One super class having more than one subclass at same level
+
+Multiple Inheritance:
+    One subclass having more than one super class at same level
+    In JAVA we cannot achieve multiple inheritance with the help of class because of dimond problem
+    to achieve it in JAVA we have to use Interfaces
+
+Hybrid Inheritance:
+    Combination of any two inheritance.
+

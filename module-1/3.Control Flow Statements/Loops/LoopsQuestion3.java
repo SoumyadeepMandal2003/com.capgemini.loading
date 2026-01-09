@@ -1,3 +1,5 @@
+package Loops;
+
 /*
 
 WAP to print numbers from the range using Do-While Loop

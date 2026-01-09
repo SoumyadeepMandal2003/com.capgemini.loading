@@ -1,3 +1,5 @@
+package Loops;
+
 /*
 
 WAP to show factorial a number

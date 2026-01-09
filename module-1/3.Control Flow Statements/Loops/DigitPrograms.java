@@ -1,3 +1,5 @@
+package Loops;
+
 import java.util.Scanner;
 
 /*
@@ -19,7 +21,7 @@ Logic used:
 
 */
 
-public class DigitPrograms {
+public class DigitPrograms{
 
     
     static void printDigits(int n) {
@@ -130,19 +132,21 @@ public class DigitPrograms {
     }
 
     
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
         
         printDigits(n);
-        // printEvenDigits(n);
-        // printPrimeDigits(n);
-        // sumOfDigits(n);
-        // productEvenOddSum(n);
-        // smallestDigit(n);
-        // largestDigit(n);
-        // secondSmallestDigit(n);
-        // secondLargestDigit(n);
+        printEvenDigits(n);
+        printPrimeDigits(n);
+        sumOfDigits(n);
+        productEvenOddSum(n);
+        smallestDigit(n);
+        largestDigit(n);
+        secondSmallestDigit(n);
+        secondLargestDigit(n);
+        sc.close();
     }
 }

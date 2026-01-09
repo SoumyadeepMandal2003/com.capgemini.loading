@@ -1,3 +1,5 @@
+package Loops;
+
 /*
 WAP to print factorial of all numbers from 1 to 10.
 WAP 

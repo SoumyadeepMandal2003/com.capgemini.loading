@@ -1,3 +1,5 @@
+package Loops;
+
 /*
 
 WAP to check if given char is
@@ -58,7 +60,6 @@ public class LoopsQuestion5{
 		if((ch>'A' && ch<'Z') && (ch != 'A' || ch != 'E' || ch != 'I' || ch != 'O' || ch != 'U')){
 			for(int num = 25;num>=15;num--){
 				System.out.print(num + " ");
-				;
 			}
 		}
 		System.out.println();
@@ -69,7 +70,6 @@ public class LoopsQuestion5{
 		if((ch>'a' && ch<'z') && (ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u')){
 			for(int num = -25;num<=-15;num++){
 				System.out.print(num + " ");
-				;
 			}
 		}
 		System.out.println();

@@ -23,9 +23,11 @@ public class PStatement2{
 
 		if(age<5){
 			System.out.println("Free Ticket - No Booking Required");
+			sc.close();
 			return;
 		}else if(age>80){
 			System.out.println("Medical Clearance Required");
+			sc.close();
 			return;
 		}else{
 			System.out.print("Select Medium(Bus,Train,Flight): ");
@@ -115,5 +117,7 @@ public class PStatement2{
 		System.out.println("Final Fare: "+totalFare);
 		System.out.println("Discount Applied: "+discount+"%");
 		System.out.println("Booking Status: "+bookingStatus);
+
+		sc.close();
 	}
 }

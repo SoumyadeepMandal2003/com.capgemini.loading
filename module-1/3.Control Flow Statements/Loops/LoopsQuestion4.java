@@ -1,3 +1,5 @@
+package Loops;
+
 /*
 
 WAP to print char from range using for loop

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PStatement1{
 	public static void main(String[] a){
 		Scanner sc = new Scanner(System.in);
-		int eID, age, choice, dept;
+		int eID, choice, dept;
 		String name, role = "", department = "", accessLevel;
 		double baseSalary,finalSalary,allowance = 0d;
 
@@ -12,8 +12,6 @@ public class PStatement1{
 		sc.nextLine();
 		System.out.print("Employee Name: ");
 		name = sc.nextLine();
-		System.out.print("Age: ");
-		age = sc.nextInt();
 		System.out.print("Basic Salary: ");
 		baseSalary = sc.nextDouble();
 		System.out.print("Select Choice(1.IT, 2.HR, 3.Finance): ");
@@ -85,5 +83,7 @@ public class PStatement1{
 		System.out.println("Basic Salary: "+baseSalary);
 		System.out.println("Final Salary: "+finalSalary);
 		System.out.println("Access Level: "+accessLevel);
+
+		sc.close();
 	}
 }
