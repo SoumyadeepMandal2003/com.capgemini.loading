@@ -1,0 +1,56 @@
+Exception:
+    The problems that occurs during runtime due to which the flow of program gets distributed and program gets terminated.
+
+Supermost Class :- Throwable
+
+Error
+-Virtual Machine Error
+
+>Stack
+
+
+-> What happens when exception occurs
+
+
+>the flow of program is distributed or stopped
+>Exception objects will be created which contains TypeOfException, ErrorMessage
+>line number method detects
+>JVM search for exception handler
+	>If it is present ,it will handle the exception and program gets continued after try-catch block
+	>if it is not present program gets terminated.
+
+
+
+
+Keywords:
+    1.try-catch
+    2.try with multiple catch
+    3.try finally
+    4.try catch finally
+
+
+
+Try:
+    What it does:
+        It contains code that might cause an error.
+
+    Why is it useful:
+        To prevent program from crashing if something goes wrong
+
+-------------------------------------------------------------------------------------------------------------
+
+Catch:
+    What it does:
+        It catches the error that happens in the try block and handles it.
+    Why is it useful:
+        Instead of crashing, your program can show a message or do something safe.
+
+-------------------------------------------------------------------------------------------------------------
+
+Finally:
+    What it does:
+        It always runs whether there was a error or not.
+
+    Why is it useful:
+        To do cleanup work like closing files, releasing memory,
+    

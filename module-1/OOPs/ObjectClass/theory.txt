@@ -1,0 +1,23 @@
+Object Class:
+It is a supermost class
+
+It is present inside 
+
+return type of ToString method is String. It is used to return address of an object in string.
+
+
+Why do we need to override ToString method??
+To print data of an object rather than printing address of an object.
+
+
+
+HashCode method:
+The return type of hashcode method is int. It will return unique integer value for each object.
+
+
+Equals Method:
+The return type is boolean. It is used to compare address of two object.
+
+
+Why do we need to override equals method??
+to compare data of an object rather than address of an object.
