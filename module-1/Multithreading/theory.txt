@@ -1,0 +1,49 @@
+Multithreading:
+    Multithreading in Java is process of executing mutiple threads simultaeneously.
+    Thread is basically a lightweight sub-process, a smallest unit of processing.
+    Threads are independent, if there occurs exception in one thread others are not affected by it.
+    Multiprocessing and Multithreading both are used to achieve multitasking.
+    But we use multithreading than multiprocessing because threads share a common memory area.They don't allocate seperate memory, context switching between the threads takes less time than process.
+    Java Multithreading is mostly used in games.
+
+Advantage of Java Multithreading
+    It doesn't block the user because the threads are independent and you can perform multiple operations at a time.
+    You can perform many operations together so it saves time.
+    Threads are independent so it doesn't affect other threads if execution occurs in single thread.
+
+Multitasking
+    Multitasking is a process of executing multiple tasks simultaneously. We use multitasking to utilize the CPU.
+    It can be achieved by two ways:
+        1.Process-based multitasking(Multiprocessing)
+        2.Thread-based multitasking(Multithreading)
+
+Process-Based Multitasking(Multiprocessing):
+    Each process have its own address in memory i.e. each processes allocates seperate memory areas.
+    Process is heavyweight.
+    Cost of communication between the process is high.
+    Switching from one process to another require time for saving and loading registers, memory maps, updating lists etc.
+
+Thread-based Multitasking(Multithreading):
+    Thread share same address space.
+    Thread is lightweight.
+    Cost of communication between thread is low.
+
+Life Cycle of a Thread(Thread States):
+    1.New
+    2.Runnable
+    3.Running
+    4.Not-Runnable(Blocked)
+    5.Terminated 
+
+
+ The l
+
+ 'connobly used
+
+
+
+
+
+ Thread Scheduler in Java
+
+ Thread scheduler in java is a part of JVM that decides which threads to run which to not

@@ -1,0 +1,13 @@
+Comparable:
+
+    1. **Natural Ordering**: Comparable defines the natural ordering of objects through its `compareTo()` method, establishing a default sort sequence.
+
+    2. **Single Method Contract**: It requires implementing the `compareTo(T o)` method, which returns negative, zero, or positive values to indicate less than, equal to, or greater than relationships.
+
+    3. **Consistency with equals()**: Proper implementation should maintain consistency where `a.compareTo(b) == 0` typically implies `a.equals(b)` returns true.
+
+    4. **Automatic Sorting Support**: Collections like TreeSet and TreeMap automatically use Comparable for element ordering without needing external comparators.
+
+    5. **Single Comparison Logic**: Each class can have only one natural ordering defined through Comparable, limiting flexibility for multiple sort criteria.
+
+    6. **java.lang Integration**: Being part of java.lang package, it's fundamental to Java's object comparison framework and widely used in sorting algorithms and data structures.
