@@ -1,4 +1,4 @@
-package org.university;
+package anno;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

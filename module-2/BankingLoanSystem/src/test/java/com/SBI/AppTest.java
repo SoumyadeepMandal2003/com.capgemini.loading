@@ -1,4 +1,4 @@
-package org.university;
+package com.SBI;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
