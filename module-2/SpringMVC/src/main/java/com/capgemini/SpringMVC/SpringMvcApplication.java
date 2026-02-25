@@ -1,4 +1,4 @@
-package com.capgeminii.SpringMVC;
+package com.capgemini.SpringMVC;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

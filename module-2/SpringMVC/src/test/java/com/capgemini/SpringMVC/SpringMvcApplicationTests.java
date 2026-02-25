@@ -1,4 +1,4 @@
-package com.capgeminii.SpringMVC;
+package com.capgemini.SpringMVC;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

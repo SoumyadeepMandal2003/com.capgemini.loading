@@ -1,13 +1,13 @@
-package com.capgeminii.SpringMVC.controller;
+package com.capgemini.SpringMVC.controller;
 
-import ch.qos.logback.core.model.Model;
-import com.capgeminii.SpringMVC.model.Student;
-import com.capgeminii.SpringMVC.repository.StudentDAO;
+import com.capgemini.SpringMVC.model.Student;
+import com.capgemini.SpringMVC.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-
 
 @Controller
 public class StudentController {
@@ -17,13 +17,16 @@ public class StudentController {
 
     @PostMapping("/register")
     public String register(@ModelAttribute Student student, Model model) {
-        //MVC Flow - @ModelAttribute binds form data to Student Object
+        // MVC Flow - @ModelAttribute binds form data to Student Object
         studentService.saveStudent(student);
 
-        //1.MVC flow - Model sends data to JSP View
+        // MVC flow - Model sends data to JSP View
         model.addAttribute("name", student.getName());
-        return "Success";
-
+        return "success";
     }
 
+    @GetMapping("/register")
+    public String showForm(){
+        return "register";
+    }
 }

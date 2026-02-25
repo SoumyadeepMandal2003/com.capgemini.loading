@@ -1,4 +1,4 @@
-package com.capgeminii.SpringMVC;
+package com.capgemini.SpringMVC;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

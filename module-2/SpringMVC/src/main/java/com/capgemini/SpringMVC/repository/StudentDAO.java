@@ -1,6 +1,6 @@
-package com.capgeminii.SpringMVC.repository;
+package com.capgemini.SpringMVC.repository;
 
-import com.capgeminii.SpringMVC.model.Student;
+import com.capgemini.SpringMVC.model.Student;
 import org.springframework.stereotype.Repository;
 
 @Repository
