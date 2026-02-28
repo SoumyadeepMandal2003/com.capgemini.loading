@@ -1,29 +1,30 @@
-package com.capgemini.SpringMVC.model;
+package com.databaseMapping.model;
 
 
-@Entity
-@Table(name = "student_table")
-public class Student {
 
-    @Id
-
+public class User {
+    private long id;
     private String name;
     private String email;
 
-    // Default constructor is required by Spring for form binding
-    public Student() {
-    }
+    public User(){}
 
-    public Student(String name, String email) {
+    public User(long id, String name, String email) {
+        this.id=id;
         this.name = name;
         this.email = email;
     }
 
-    // Getters and Setters
+    public long getId() {
+        return id;
+    }
+    public void setId(long id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -31,7 +32,6 @@ public class Student {
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }
