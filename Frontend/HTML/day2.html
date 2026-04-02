@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+</head>
+<body>
+    <h1>Today's Content</h1>
+
+    <!-- Hyperlinks -->
+    <a href="https://www.google.com">Google</a>
+
+
+    <!-- Lists -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- Nested List -->
+    <h2>Nested List</h2>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <ul>
+            <li>TailWind CSS</li>
+            <li>Bootstrap</li>
+        </ul>
+        <li>JavaScript</li>
+        <ul>
+            <li>React JS</li>
+            <li>Vue JS</li>
+        </ul>
+    </ol>
+
+
+
+    <!-- Media Tags -->
+    <!-- Generate Qr Code with QR Code API-->
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=https://www.amazon.in/MSI-i7-14650HX-Windows-GeForce-B14WFK-262IN/dp/B097PNJL56/?_encoding=UTF8&pd_rd_w=tn1fA&content-id=amzn1.sym.fa294cf3-99e4-435e-8284-16ec3b3e2443%3Aamzn1.symc.752cde0b-d2ce-4cce-9121-769ea438869e&pf_rd_p=fa294cf3-99e4-435e-8284-16ec3b3e2443&pf_rd_r=J2FX5PSXT9VM7KQZ9BT0&pd_rd_wg=Fyacy&pd_rd_r=5c3bb9b4-96d9-4c44-83e7-2ae75bab44a2&tag=tbde012-21" alt="QR to Amazon Link for Laptop">
+
+
+    <br><br><br>
+
+    <hr>
+
+    <br><br><br>
+
+    <video src="/Free Stock Video Footage & Video Clips.mp4" height="300px" width="400px" controls autoplay muted loop></video>
+
+    <audio src="/yellowbirdbeats-gta-west-coast-dr-dre-x-snoop-dogg-criminal-x-murder-minority-292173.mp3" controls autoplay muted loop></audio>
+
+    <br><br><br>
+
+    <hr>
+
+    <br><br><br>
+
+
+    <!-- Tables -->
+    <table border="5">
+        <tr>
+            <td>Roll No.</td>
+            <td>Name</td>
+            <td>Subject</td>
+            <td>Branch</td>
+            <td>Primary No.</td>
+            <td>Secondary No.</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Soumyadeep</td>
+            <td>Java</td>
+            <td rowspan="4">CSE</td>
+            <td>8653900290</td>
+            <td>9867324728</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ankit</td>
+            <td>Spring Boot</td>
+            <td colspan="2">8463690398</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rohan</td>
+            <td>MySQL</td>
+            <td colspan="2">9834783264</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Soham</td>
+            <td>HTML</td>
+            <td>8973637393</td>
+            <td>9887234873</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Gagan</td>
+            <td>Swift</td>
+            <td rowspan="2">Mechanical</td>
+            <td colspan="2">9764798349</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Tina</td>
+            <td>ReactJS</td>
+            <td>9732645632</td>
+            <td>9734923909</td>
+        </tr>
+        
+        
+    </table>
+
+    <br><br><br>
+
+    <hr>
+
+    <br><br><br>
+
+    
+
+    <form action="" method="get">
+
+        <label for="name">User</label><br>
+        <input type="text" name="username" id="name" required>
+
+        <br><br>
+
+        <label for="mail">User</label><br>
+        <input type="text" name="email" id="mail" required>
+
+        <input type="submit" value="save">
+
+        <br><br><br>
+
+        <hr>
+
+        <br><br><br>
+
+        <!-- Checkboxes -->
+
+        <h2>Subject</h2>
+
+        <input type="checkbox" id="1" name="check1" >
+        <label for="1">HTML</label>
+        <br><br>
+
+        <input type="checkbox"  id="2" name="check2">
+        <label for="2">CSS</label>
+        <br><br>
+
+        <input type="checkbox"  id="3" name="check3">
+        <label for="3">JAVA SCRIPT</label>
+        <br><br>
+
+
+        <!-- data validations -->
+        <!-- yyyy-DD-MM -->
+        <label for="">Passout Data</label>
+        <input type="date" name="" id="" min="2025-01-01" max="2026-02-04">
+
+
+        <br><br><hr><br><br>
+
+
+
+        <!-- Radio Buttons -->
+
+
+        <label>Gender</label><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+
+        <label for="course">Select Course:</label>
+
+        <select id="course" name="course">
+
+        <optgroup label="Programming">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+        </optgroup>
+
+        <optgroup label="Web Development">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+    <option value="react">React</option>
+  </optgroup>
+
+  <optgroup label="Database">
+    <option value="mysql">MySQL</option>
+    <option value="mongodb">MongoDB</option>
+  </optgroup>
+
+</select>
+
+    </form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

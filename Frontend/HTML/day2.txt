@@ -1,0 +1,38 @@
+HTML-5
+
+
+
+Hyper-Links
+
+- One page to another page
+- One section to another section using ID
+- It is inline elements 
+
+
+-> Three States
+	- unvisited
+	- visited
+	- active
+
+ -> Download image
+
+      <a href="/ screenshot.img  download = “image” >Download now </a>
+
+
+
+LIst 
+
+
+- Order List
+- Un order List
+
+
+Order List
+
+1. 2. 3. - it will like this
+
+*   Type = “a” - here we need to mention type 
+*   Start = from where type should start here we will mention
+*   Reversed = it will print in reverse value
+
+ 
