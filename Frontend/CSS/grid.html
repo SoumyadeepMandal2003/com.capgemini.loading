@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        section{
+            display: grid;
+            height: 100vh;
+            width: 100vh;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto auto;
+           
+        }
+        nav{
+            background-color: green;
+            grid-column: 1 / 4;
+            text-align: center;
+        }
+        aside{
+            background-color: lightgreen;
+                grid-row: 2 / 4;
+            }
+
+        .container1{
+            background-color: red;
+            grid-row: 2/4;
+        }
+        .container2{
+            background-color: black;
+            grid-row: 2/4;
+        }
+        footer{
+            background-color: blue;
+            grid-column: 1 / 4;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <nav>Navbar</nav>
+        <aside>Aside</aside>
+        <div class="container1"></div>
+        <div class="container2"></div>
+        <footer>Footer</footer>
+    </section>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Photo Stack</title>
+
+<style>
+
+.container{
+    position: relative;
+    width: 320px;
+    height: 200px;
+}
+
+/* common style */
+.box{
+    position: absolute;
+    width: 140px;
+    height: 90px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* image fit */
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* stack positions */
+#box1{
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+}
+
+#box2{
+    top: 40px;
+    left: 60px;
+    z-index: 2;
+}
+
+#box3{
+    top: 70px;
+    left: 100px;
+    z-index: 3;
+}
+
+/* only bring to front */
+.box:hover{
+    z-index: 100;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="box" id="box1">
+<img src="kanenori-sunset-7133867_1920.jpg">
+</div>
+
+<div class="box" id="box2">
+<img src="pexels-gabii-fernandez-199438359-35876978.jpg">
+</div>
+
+<div class="box" id="box3">
+<img src="pexels-nikki-tonkin-2160502807-36768562.jpg">
+</div>
+
+</div>
+
+</body>
+</html>

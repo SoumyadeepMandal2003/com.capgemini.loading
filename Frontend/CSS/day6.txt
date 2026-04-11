@@ -1,0 +1,79 @@
+CSS display Property
+👉 Defines how an element appears on the webpage (layout behavior).
+Common Values
+
+
+Value               Meaning
+block               Takes full width, starts on new line
+inline              Takes only required width, stays in same line
+inline-block        Inline but allows width & height
+none	            Hides the element completely
+flex	            Enables flexible layout (flexbox)
+grid                Enables grid layout
+
+
+display:- block -> Takes full width
+Starts on new line
+Can set width & height
+    Example elements: div, p, h1
+
+
+
+display: inline -> Takes only content width
+Stays in same line
+width & height NOT applied
+    Example elements: span, a, b
+
+
+
+
+display: inline-block -> Behaves like inline
+Can set width & height
+
+
+display: none -> Completely removes element from page
+
+
+
+display: flex -> Used for flexbox layout
+    Advantages:
+        Align items easily
+        Responsive design
+
+
+
+display: grid -> Used for grid layout
+
+
+
+
+
+
+2️⃣ CSS position Property
+👉 Defines how element is positioned on webpage.
+
+
+| Value      | Meaning                           |
+| ---------- | --------------------------------- |
+| `static`   | Default position                  |
+| `relative` | Moves relative to itself          |
+| `absolute` | Moves relative to parent          |
+| `fixed`    | Fixed on screen                   |
+| `sticky`   | Switches between relative & fixed |
+
+
+
+
+position: static -> Default position
+
+position: relative -> Moves from its original position
+
+position: absolute -> Moves relative to nearest positioned parent
+
+position: fixed -> Stays fixed even when scrolling
+    Example:
+        Chat button
+        Navbar
+
+
+position: sticky -> Acts relative until scroll, then becomes fixed

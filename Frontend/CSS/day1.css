@@ -1,0 +1,104 @@
+/* Tag Selector */
+h2{
+    color: green;
+}
+
+
+/* ID Selector */
+#container{
+    background-color: lightgray;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+/* Class Selector */
+.para{
+    color: purple;
+    font-size: 18px;
+}
+
+
+/* Universal Selector */
+*{
+    font-family: Arial;
+    background-color: whitesmoke;
+}
+
+
+/* Grouping Selector */
+#container, .para, h2{
+    margin: 10px;
+}
+
+
+/* --------------------------- */
+/* COMBINATOR SELECTORS */
+/* --------------------------- */
+
+
+/* Descendant Selector */
+.main h1{
+    color: orange;
+}
+
+
+/* Child Selector */
+.parent > div{
+    border: 2px solid blue;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* Adjacent sibling selector */
+.box + h3{
+    color: red;
+}
+
+
+/* General sibling selector */
+.general ~ h4{
+    color: brown;
+}
+
+
+/* Sudo Class Selectors */
+a:link{
+    color: yellow;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: cyan;
+}
+
+input:focus{
+    border: 2px solid red;
+    color: whitesmoke;
+    background-color: black;
+}
+
+button:hover{
+    border: 3px solid darkblue;
+    background-color: lightblue;
+    color: darkblue;
+}
+
+
+/* Sudo Element Selectors */
+
+li::before{
+    content: "👑";
+}
+
+li::after{
+    content: "👑";
+}
+
+p::selection{
+    background-color: bisque;
+}

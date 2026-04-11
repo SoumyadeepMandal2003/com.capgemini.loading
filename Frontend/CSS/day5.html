@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+    <style>
+        /* Block element */
+        h1 {
+            display: inline-block;
+            background-color: lightblue;
+            height: 100px;
+            width: 200px;
+        }
+
+        /* Inline element */
+        b {
+            display: block;
+            color: red;
+            height: 100px;
+            width: 200px;
+        }
+
+        /* Implementation question */
+        #box1 {
+            position: absolute;
+            top: 30px;
+            padding: 10px;
+            background-color: lightcoral;
+        }
+
+        #box2 {
+            position: sticky;
+            top: 30px;
+            left: 100px;
+            background-color: lightcyan;
+        }
+
+        #box3 {
+            position: fixed;
+            top: 30px;
+            left: 200px;
+            background-color: lightyellow;
+        }
+
+        #box4 {
+            position: relative;
+            top: 30px;
+            left: 300px;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- This is block element -->
+    <h1>Hello</h1>
+
+    <!-- This is inline element -->
+    <b>Bold Text</b>
+
+
+    <!-- Implementation question -->
+    <div id="box1">Box1</div>
+    <div id="box2">Box2</div>
+    <div id="box3">Box3</div>
+    <div id="box4">Box4</div>
+
+</body>
+</html>

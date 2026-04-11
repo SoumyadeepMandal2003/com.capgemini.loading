@@ -1,0 +1,86 @@
+CSS
+
+
+3-ways to create CSS
+
+- Inline            - style attribute
+- Internal       - style tag
+- External      - .css File
+
+
+Property
+
+- Combination of key and value pairs.
+
+rel = stylesheet - it tells the browser to this is css file
+
+
+
+SELECTORS
+
+- Selectors are used to target the elements.
+
+1. Simple Selector    
+    - id                                         -> to give unique name to element ->. To target one element 
+    - Class                                      -> to target multiple elements 
+    - Tag Name					 -> Target using tag name example: h1,p
+    - Universal					 -> target universal element.	-{*}
+    - Grouping selection             		 -> to target multiple different selector at once.  =  #container , .para , h1
+
+2.  Combinator Selector     			 -> combination of multiple selectors
+    - Descendant selector		      	 -> grand child(used Space)  	=> It will select the grand Child
+    - Child selector				 -> div > h1	             	=> it will select which is directly child .
+    - Adjacent sibling selector			 -> dive + h1                	=> also called Immediate adjacent sibling selector
+    - general selector                      	 -> ( ~ )  div ~ h1          	=> it will select (ALL) sibling elements
+
+3. Sudo Class Selector				 -> used : to select the state				=> Select State of the class
+    - Link
+    - visited
+    - active
+    - hover
+    - focus
+
+4. Sudo Element Selector
+    - Before
+    - After
+    - selection
+
+5. Attribute Selector				 -> [attribute] for general or [attribute = "value"] for specific value of attribute
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Properties
+
+
+
+1. Font Property
+2. Text Property
+3. Background Property
+4. Units
+5. Box Model
+
+
+
+1.Font Property
+	-Font Size
+	-Font Weight
+	-Font-Family
+	-Color(RGB, RGBA, HexaDecimal)
+
+
+
+
+
