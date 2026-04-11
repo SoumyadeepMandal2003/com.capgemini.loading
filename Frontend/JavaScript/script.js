@@ -64,6 +64,14 @@
 
 
 
+
+
+
+
+
+
+
+
 var str = "Hello";
 
 // console.log(str.toLowerCase());
@@ -181,6 +189,9 @@ var str = "Hello";
 
 
 
+
+
+
 // for of and for in loop
 
 // let arr = [10, 20, 30, 40, 50, 60];
@@ -196,6 +207,7 @@ var str = "Hello";
 // console.log(arr);
 
 // console.log(typeof(arr));
+
 
 
 
@@ -234,6 +246,56 @@ var str = "Hello";
 // }
 
 // demo(1, 2, 3, 4, 5, 6);
+
+
+
+
+
+
+
+
+// Destructuring
+
+// let [a, b, c] = [1, 2, 3, 4, 5, 6];
+// console.log(a, b, c);
+
+
+// let [x, y, z] = [["Hello", "World", "Soumya"], [1, 2, 3], [true, false]];
+// console.log(x, y, z);
+
+
+// let [arr1, arr2, ...rest] = [1, 2, 3, 4, 5, 6];
+// console.log(arr1, arr2, rest);
+
+
+
+
+
+
+
+
+
+//object Destructuring
+
+// let obj = {
+//     username: "Soumyadeep",
+//     age: 20,
+//     hobbies: ["Coding", "Gaming", "Cooking"],
+//     address: {
+//         street: "123 Main St",
+//         city: "Kolkata",
+//         zip: "700001"
+//     }
+// }
+
+// let {username, age, hobbies, address} = obj;
+
+// console.log(username, age, hobbies, address);
+
+
+
+
+
 
 
 
